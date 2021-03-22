@@ -1,0 +1,10 @@
+---
+check:
+  - thoth-build
+build:
+  base-image: "quay.io/thoth-station/s2i-thoth-ubi8-py38"
+  build-stratergy: Source
+  registry: quay.io
+  registry-org: operate-first
+  registry-project: installplan-operator
+  registry-secret: operate-fist-pusher-secret
