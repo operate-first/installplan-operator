@@ -1,0 +1,6 @@
+colorlog
+kubernetes
+openshift
+python-decouple
+pyyaml
+watchgod
